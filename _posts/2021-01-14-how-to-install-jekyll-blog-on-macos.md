@@ -2,6 +2,8 @@
 title: 맥에서 Jekyll 블로그 설치하는 방법
 layout: post
 date: '2021-01-14 19:00:00'
+categories:
+  - jekyll
 ---
 
 ## 필요 조건

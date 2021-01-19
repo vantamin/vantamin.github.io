@@ -2,6 +2,8 @@
 title: HTML 속성 순서
 layout: post
 date: '2021-01-12 18:00:00'
+categories:
+  - html
 ---
 
 ## NHN
