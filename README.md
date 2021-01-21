@@ -14,3 +14,9 @@ $ cd vantamin
 ~/vantamin $ git commit -m "commit message"
 ~/vantamin $ git push -u origin master
 ```
+
+## Sourcetree 실행
+
+```bash
+$ open /Applications/Sourcetree.app
+```
