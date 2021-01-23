@@ -65,6 +65,7 @@ categories:
 ## 북마크
 
 - [How to organize CSS @ 9elements](https://9elements.com/css-rule-order/)
+- [Airbnb CSS / Sass 스타일 가이드](https://github.com/CodeMakeBros/css-style-guide)
 - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
 - [NHN 코딩 컨벤션](https://nuli.navercorp.com/data/convention/NHN_Coding_Conventions_for_Markup_Languages.pdf)
 - [일관성있는 CSS다운 CSS를 작성하기 위한 원칙](https://github.com/necolas/idiomatic-css/tree/master/translations/ko-KR)

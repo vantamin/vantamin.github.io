@@ -57,4 +57,5 @@ categories:
 
 - [Code Guide](https://codeguide.co/)
 - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+- [웹 표준 개발 가이드 - Mozilla 한국 커뮤니티](http://www.mozilla.or.kr/docs/web-developer/standard/)
 - [NHN 코딩 컨벤션](https://nuli.navercorp.com/data/convention/NHN_Coding_Conventions_for_Markup_Languages.pdf)
