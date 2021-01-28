@@ -43,7 +43,7 @@ package.json
 터미널에서 다음 명령어로 *Sourcetree.app*을 실행하면 해결할 수 있다.
 
 ```bash
-open /Applications/Sourcetree.app
+$ open /Applications/Sourcetree.app
 ```
 
 ## 북마크
