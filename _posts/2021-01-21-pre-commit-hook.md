@@ -1,7 +1,7 @@
 ---
 title: 커밋 하면 코드에 prettier 적용하기
 layout: post
-date: '2021-01-28 19:00:00'
+date: '2021-01-21 19:00:00'
 categories:
   - pre-commit hook
   - sourcetree

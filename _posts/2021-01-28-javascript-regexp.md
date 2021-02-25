@@ -1,7 +1,7 @@
 ---
 title: 자바스트립트 정규식 모음
 layout: post
-date: '2021-01-21 19:00:00'
+date: '2021-01-28 19:00:00'
 categories:
   - javascript
 ---
