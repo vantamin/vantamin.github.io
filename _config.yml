@@ -28,6 +28,9 @@ url: 'https://vantamin.github.io' # the base hostname & protocol for your site, 
 # twitter_username: jekyllrb
 github_username: vantamin
 
+sass:
+  style: compressed
+
 # Build settings
 # theme: minima
 plugins:

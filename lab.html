@@ -5,22 +5,11 @@ permalink: /page/lab/
 ---
 
 <ul>
+  {% for lab in site.data.labs %}
   <li>
-    <a
-      href="https://vantamin.github.io/lab/css-animation-steps.html"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      CSS Animation Steps
+    <a href="{{ lab.url }}" target="_blank" rel="noopener noreferrer">
+      {{ lab.title }}
     </a>
   </li>
-  <li>
-    <a
-      href="https://vantamin.github.io/lab/canvas-snow-effect.html"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Canvas Snow Effect
-    </a>
-  </li>
+  {% endfor %}
 </ul>
