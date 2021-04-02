@@ -4,6 +4,8 @@
 
 ## DEV 명령어 모음
 
+### `git command`
+
 ```bash
 $ git clone https://github.com/vantamin/vantamin.github.io.git vantamin
 $ cd vantamin
@@ -15,8 +17,21 @@ $ cd vantamin
 ~/vantamin $ git push -u origin master
 ```
 
+### `yarn start`
+
+```bash
+~/vantamin $ yarn start # => bundle exec jekyll serve -l -o
+```
+
 ## Sourcetree 실행
 
 ```bash
 $ open /Applications/Sourcetree.app
 ```
+
+## [환경설정 옵션](http://jekyllrb-ko.github.io/docs/configuration/options/) : [Configuration Options](https://jekyllrb.com/docs/configuration/options/)
+
+| 설정        | 옵션과 플래그      |
+| ----------- | ------------------ |
+| Live Reload | `-l, --livereload` |
+| Open URL    | `-o, --open-url`   |
