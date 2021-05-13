@@ -1,7 +1,7 @@
 ---
 title: <input type="file" /> 확장자 지정
 layout: post
-date: '2021-04-15 19:00:00'
+date: '2021-05-13 19:00:00'
 categories:
   - html
   - input
