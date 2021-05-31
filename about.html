@@ -4,7 +4,7 @@ title: About
 permalink: /page/about/
 ---
 
-{%- assign resume = site.data.resume -%} {%- assign works =
+{%- assign resume = site.data.resume -%} {%- if resume -%} {%- assign works =
 resume.workExperience | reverse -%} {%- assign awards = resume.awards | reverse
 -%}
 <h2>Work Experience</h2>
@@ -37,3 +37,4 @@ resume.workExperience | reverse -%} {%- assign awards = resume.awards | reverse
   <li>{{ award.name }}</li>
   {%- endfor -%}
 </ul>
+{%- endif -%}
