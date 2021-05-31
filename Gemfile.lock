@@ -12,6 +12,8 @@ GEM
     eventmachine (1.2.7)
     ffi (1.13.1)
     forwardable-extended (2.6.0)
+    hash-joiner (0.0.7)
+      safe_yaml
     http_parser.rb (0.6.0)
     i18n (1.8.5)
       concurrent-ruby (~> 1.0)
@@ -89,6 +91,7 @@ PLATFORMS
   universal-darwin-19
 
 DEPENDENCIES
+  hash-joiner (~> 0.0.7)
   jekyll (~> 4.2.0)
   jekyll-admin
   jekyll-feed (~> 0.12)

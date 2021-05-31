@@ -33,6 +33,10 @@ sass:
 
 paginate: 10
 
+jekyll_get:
+  - data: resume
+    json: 'https://script.google.com/macros/s/AKfycbyG2DOkFnJKKruFEvrrGh7jPIFxRaH1ks60gNsk3AV6YXnd-qfIvrfnE9gVE-hIeeuj/exec'
+
 # Build settings
 # theme: minima
 plugins:

@@ -4,11 +4,36 @@ title: About
 permalink: /page/about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your
-Jekyll theme, as well as basic Jekyll usage documentation at
-[jekyllrb.com](https://jekyllrb.com/) You can find the source code for Minima at
-GitHub: [jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima) You can find the source code for
-Jekyll at GitHub: [jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll) [jekyll-organization]:
-https://github.com/jekyll
+{%- assign resume = site.data.resume -%} {%- assign works =
+resume.workExperience | reverse -%} {%- assign awards = resume.awards | reverse
+-%}
+<h2>Work Experience</h2>
+{%- for work in works -%}
+<h3>{{ work.companyName }}</h3>
+<ul>
+  <li>
+    근무기간 : {{ work.startDate | date: '%Y.%m.%d' }} ~ {%- if work.endDate -%}
+    &nbsp;{{ work.endDate | date: '%Y.%m.%d' }} {%- endif -%}
+  </li>
+  <li>부서 : {{ work.teamName }}</li>
+  {%- assign taskDescription = work.tasks | map: "taskDescription" | reverse -%}
+  {%- if taskDescription.size > 1 -%}
+  <li>
+    담당업무
+    <ul>
+      {%- for taskDescription in taskDescription -%}
+      <li>{{ taskDescription }}</li>
+      {%- endfor -%}
+    </ul>
+  </li>
+  {%- else -%}
+  <li>담당업무 : {{ taskDescription | join: ", " }}</li>
+  {%- endif -%}
+</ul>
+{%- endfor -%}
+<h2>Awards</h2>
+<ul>
+  {%- for award in awards -%}
+  <li>{{ award.name }}</li>
+  {%- endfor -%}
+</ul>
