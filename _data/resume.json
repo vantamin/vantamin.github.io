@@ -1,0 +1,109 @@
+{
+  "awards": [
+    {
+      "id": 0,
+      "date": "2017-12-22T00:00:00.000Z",
+      "name": "2017 dktechin 우수사원"
+    }
+  ],
+  "education": [
+    {
+      "id": 0,
+      "startDate": "2000-03-02T00:00:00.000Z",
+      "endDate": "2003-02-11T00:00:00.000Z",
+      "name": "산본중학교",
+      "major": null
+    },
+    {
+      "id": 1,
+      "startDate": "2003-03-03T00:00:00.000Z",
+      "endDate": "2006-02-09T00:00:00.000Z",
+      "name": "흥진고등학교",
+      "major": "문과"
+    },
+    {
+      "id": 2,
+      "startDate": "2007-03-02T00:00:00.000Z",
+      "endDate": "2013-02-21T00:00:00.000Z",
+      "name": "배재대학교",
+      "major": "미술학부 서양화과",
+      "gpa": { "average": 4.1, "perfect": 4.5 }
+    }
+  ],
+  "projects": [{ "id": 0 }],
+  "skills": [{ "id": 0 }],
+  "workExperience": [
+    {
+      "id": 0,
+      "startDate": "2016-03-10T00:00:00.000Z",
+      "endDate": "2016-08-31T00:00:00.000Z",
+      "companyName": "웹액츄얼리코리아",
+      "teamName": "웹개발팀",
+      "leave": { "reason": "경영악화" },
+      "tasks": [
+        {
+          "taskId": 0,
+          "taskDescription": "웹표준 및 웹접근성 준수 사이트 구축"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "startDate": "2016-09-19T00:00:00.000Z",
+      "endDate": "2019-03-31T00:00:00.000Z",
+      "companyName": "디케이테크인",
+      "teamName": "FE개발팀",
+      "leave": { "reason": "개인사정" },
+      "tasks": [
+        {
+          "taskId": 1,
+          "taskDescription": "카카오 및 카카오 공동체 FE 개발 프로젝트"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "startDate": "2019-04-01T00:00:00.000Z",
+      "endDate": null,
+      "companyName": "위메프",
+      "teamName": "FE개발팀",
+      "leave": null,
+      "tasks": [
+        {
+          "taskId": 2,
+          "startDate": "2019-04-01T00:00:00.000Z",
+          "endDate": "2021-04-30T00:00:00.000Z",
+          "teamName": "위메프오지원팀",
+          "taskDescription": "위메프오 프론트 웹페이지 개발"
+        },
+        {
+          "taskId": 3,
+          "startDate": "2019-04-01T00:00:00.000Z",
+          "endDate": "2021-04-30T00:00:00.000Z",
+          "teamName": "위메프오지원팀",
+          "taskDescription": "위메프오 어드민/파트너스 UI/UX 개발"
+        },
+        {
+          "taskId": 4,
+          "startDate": "2019-04-01T00:00:00.000Z",
+          "endDate": "2021-04-30T00:00:00.000Z",
+          "teamName": "위메프오지원팀",
+          "taskDescription": "웹소켓을 이용한 POS 개발"
+        },
+        {
+          "taskId": 5,
+          "startDate": "2021-05-03T00:00:00.000Z",
+          "endDate": null,
+          "teamName": "FE개발팀",
+          "taskDescription": "위메프 플랫폼 프론트 개발 및 운영",
+          "children": [
+            "위메프 어드민",
+            "위메프페이",
+            "W스타일(패션)",
+            "여행레저, 공연티켓 등"
+          ]
+        }
+      ]
+    }
+  ]
+}
