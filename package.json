@@ -6,9 +6,10 @@
     "clean": "bundle exec jekyll clean"
   },
   "devDependencies": {
+    "@prettier/plugin-ruby": "^1.5.5",
     "husky": ">=4",
     "lint-staged": ">=10",
-    "prettier": "2.2.1"
+    "prettier": "^2.3.0"
   },
   "husky": {
     "hooks": {

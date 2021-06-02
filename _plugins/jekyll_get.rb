@@ -9,12 +9,8 @@ module Jekyll_Get
 
     def generate(site)
       config = site.config['jekyll_get']
-      if !config
-        return
-      end
-      if !config.kind_of?(Array)
-        config = [config]
-      end
+      return if !config
+      config = [config] if !config.kind_of?(Array)
       config.each do |d|
         begin
           target = site.data[d['data']]
@@ -27,11 +23,9 @@ module Jekyll_Get
           if d['cache']
             data_source = (site.config['data_source'] || '_data')
             path = "#{data_source}/#{d['data']}.json"
-            open(path, 'wb') do |file|
-              file << JSON.generate(source)
-            end
+            open(path, 'wb') { |file| file << JSON.generate(source) }
           end
-        rescue
+        rescue StandardError
           next
         end
       end
