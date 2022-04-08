@@ -35,7 +35,7 @@ paginate: 10
 
 jekyll_get:
   - data: resume
-    json: 'https://script.google.com/macros/s/AKfycbyG2DOkFnJKKruFEvrrGh7jPIFxRaH1ks60gNsk3AV6YXnd-qfIvrfnE9gVE-hIeeuj/exec'
+    json: 'https://resume-7cada-default-rtdb.asia-southeast1.firebasedatabase.app/resume.json'
     cache: true
 
 # Build settings

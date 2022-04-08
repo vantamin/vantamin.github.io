@@ -14,6 +14,7 @@ $ cd vantamin
 ~/vantamin $ git config --local user.email "vantablack.min@gmail.com"
 ~/vantamin $ git add --all
 ~/vantamin $ git commit -m "commit message"
+~/vantamin $ GIT_COMMITTER_DATE="Mon Sep 6 14:03:46 2021 +0900" git commit --amend --no-edit --date "Mon Sep 6 14:03:46 2021 +0900"
 ~/vantamin $ git push -u origin master
 ```
 
