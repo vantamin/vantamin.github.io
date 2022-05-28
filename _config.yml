@@ -28,7 +28,7 @@ url: 'vantablack.min@gmail.com' # the base hostname & protocol for your site, e.
 github_username: vantamin
 
 # Build settings
-theme: minima
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 # Exclude from processing.
